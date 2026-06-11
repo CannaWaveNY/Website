@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Get Directions Button - FORCE UPDATE: 172 South Main Street, Albion, NY 14411, USA
+// Get Directions Button - FORCE UPDATE: 162 South Main Street, Albion, NY 14411, USA
 (function() {
     'use strict';
     
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Get address from data attribute or use default
-        const address = directionsBtn.getAttribute('data-address') || '172 South Main Street, Albion, NY 14411, USA';
+        const address = directionsBtn.getAttribute('data-address') || '162 South Main Street, Albion, NY 14411, USA';
         
         // Remove ALL existing event listeners by replacing the button
         const parent = directionsBtn.parentNode;
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
             e.stopImmediatePropagation();
             
             // Use address from data attribute
-            const btnAddress = this.getAttribute('data-address') || '172 South Main Street, Albion, NY 14411, USA';
+            const btnAddress = this.getAttribute('data-address') || '162 South Main Street, Albion, NY 14411, USA';
             console.log('Get Directions clicked - Address:', btnAddress);
             
             const encodedAddress = encodeURIComponent(btnAddress);

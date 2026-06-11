@@ -668,6 +668,86 @@ body {
     gap: 1rem;
 }
 
+.legal-disclaimer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.legal-disclaimer-cannabis {
+    background: #fff9e6;
+    color: #333;
+    padding: 1.5rem;
+}
+
+.legal-disclaimer-cannabis p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.legal-disclaimer-cannabis p:last-child {
+    margin-bottom: 0;
+}
+
+.legal-disclaimer-cannabis a {
+    color: #2d5a3d;
+    text-decoration: underline;
+}
+
+.legal-disclaimer-cannabis a:hover {
+    color: #4a7c59;
+}
+
+.shop-footer {
+    padding: 2rem 0 1rem;
+}
+
+.shop-footer-address {
+    font-size: 0.9rem;
+    color: #999;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.legal-disclaimer-hopeline {
+    background: #ffffff;
+    color: #333;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.legal-disclaimer-hopeline h4 {
+    color: #1a1a1a;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.legal-disclaimer-hopeline p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.legal-disclaimer-hopeline a {
+    color: #2d5a3d;
+    text-decoration: underline;
+}
+
+.legal-disclaimer-hopeline a:hover {
+    color: #4a7c59;
+}
+
 .disclaimers {
     flex: 1;
     min-width: 300px;
@@ -1334,6 +1414,10 @@ body {
 
     .newsletter-form {
         flex-direction: column;
+    }
+
+    .legal-disclaimer {
+        grid-template-columns: 1fr;
     }
 
     .footer-bottom {

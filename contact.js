@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Open Directions Function
 function openDirections() {
-    const address = '172 South Main Street, Albion, NY 14411, USA';
+    const address = '162 South Main Street, Albion, NY 14411, USA';
     const encodedAddress = encodeURIComponent(address);
     const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodedAddress}`;
     
