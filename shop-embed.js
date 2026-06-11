@@ -376,7 +376,7 @@ document.addEventListener('DOMContentLoaded', function() {
             height: '800px',
             width: '100%',
             loadingMessage: 'Loading our online store...',
-            errorMessage: 'Unable to load our online store. Please try again later or call us at (303) 555-0123.'
+            errorMessage: 'Unable to load our online store. Please try again later. Phone number coming soon.'
         };
 
         try {

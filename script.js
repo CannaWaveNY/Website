@@ -449,7 +449,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="placeholder-content">
                 <i class="fas fa-shopping-basket" style="font-size: 3rem; color: #4a7c59; margin-bottom: 20px;"></i>
                 <h3>Menu Coming Soon</h3>
-                <p>Our online ordering system is being set up. Please call us at (585) 555-0123 to place your order.</p>
+                <p>Our online ordering system is being set up. Phone number coming soon.</p>
                 <a href="tel:5855550123" class="btn btn-primary">Call to Order</a>
             </div>
         `;
